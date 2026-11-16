@@ -7,7 +7,7 @@ permalink: /support/
 
 ## Signaler un problème ou proposer une idée
 
-Ouvrez une demande sur la page [Issues](https://github.com/JofVan/assmatique-support/issues/new/choose) (un compte GitHub gratuit est nécessaire).
+Ouvrez une demande sur la page [Issues](https://github.com/untracklabs-org/matilink-support/issues/new/choose) (un compte GitHub gratuit est nécessaire).
 
 **N'y écrivez jamais de données personnelles** : nom d'enfant, adresse, montants de salaire, numéro Pajemploi ou d'agrément. Ces pages sont publiques.
 

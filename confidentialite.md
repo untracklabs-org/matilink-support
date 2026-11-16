@@ -61,4 +61,4 @@ Les données échangées entre un parent et une assistante maternelle relèvent 
 
 ## 8. Contact
 
-Pour toute question : [ouvrez une demande](https://github.com/JofVan/assmatique-support/issues/new/choose) (page publique : n'y écrivez aucune donnée personnelle).
+Pour toute question : [ouvrez une demande](https://github.com/untracklabs-org/matilink-support/issues/new/choose) (page publique : n'y écrivez aucune donnée personnelle).
