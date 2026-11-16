@@ -1,9 +1,9 @@
 ---
-title: Assmatique
+title: Matilink
 permalink: /
 ---
 
-# Assmatique
+# Matilink
 
 L'application iPhone et Android des **parents employeurs** et des **assistantes maternelles** pour gérer un contrat de garde de A à Z : simulateur de coût et d'aides, contrat et avenants signés à l'écran, suivi mensuel et récapitulatif Pajemploi, congés payés, fin de contrat, carnet de liaison avec photos.
 

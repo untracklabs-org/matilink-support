@@ -3,11 +3,11 @@ title: Politique de confidentialité
 permalink: /confidentialite/
 ---
 
-# Politique de confidentialité d'Assmatique
+# Politique de confidentialité de Matilink
 
 *Dernière mise à jour : 13 novembre 2026*
 
-Assmatique aide les parents employeurs et les assistantes maternelles à gérer leur contrat de garde. L'application existe sur iPhone et sur Android. Cette politique explique ce qu'elle fait des données sur les deux plateformes. En résumé : **l'éditeur ne collecte, ne reçoit et ne stocke aucune donnée.**
+Matilink aide les parents employeurs et les assistantes maternelles à gérer leur contrat de garde. L'application existe sur iPhone et sur Android. Cette politique explique ce qu'elle fait des données sur les deux plateformes. En résumé : **l'éditeur ne collecte, ne reçoit et ne stocke aucune donnée.**
 
 ## 1. Où sont vos données
 
