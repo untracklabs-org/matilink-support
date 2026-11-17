@@ -1,4 +1,8 @@
 title: Matilink
+tagline: le contrat de garde, sans paperasse.
 description: Gérer un contrat d'assistante maternelle, en toute confidentialité.
+lead: "L'application des parents employeurs et des assistantes maternelles pour gérer un contrat de garde de A à Z. Vos données restent sur votre téléphone : pas de compte, pas de serveur, pas de publicité."
 lang: fr
-theme: jekyll-theme-minimal
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }

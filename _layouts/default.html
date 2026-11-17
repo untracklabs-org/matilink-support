@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.hero %}{{ site.title }} — {{ site.tagline }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<meta name="theme-color" content="#07090d">
+<link rel="icon" href="{{ '/assets/icone.png' | relative_url }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ '/assets/icone.png' | relative_url }}">
+<meta property="og:title" content="{{ site.title }} — {{ site.tagline }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="{{ '/assets/icone.png' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, accueil">
+      <img src="{{ '/assets/icone.png' | relative_url }}" alt="">
+      <span class="wordmark">{{ site.title }}</span>
+    </a>
+    <nav>
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="on"{% endif %}>./accueil</a>
+      <a href="{{ '/support/' | relative_url }}"{% if page.url == '/support/' %} class="on"{% endif %}>./aide</a>
+      <a href="{{ '/confidentialite/' | relative_url }}"{% if page.url == '/confidentialite/' %} class="on"{% endif %}>./confidentialité</a>
+    </nav>
+  </header>
+
+  {% if page.hero %}
+  <div class="hero">
+    <div>
+      <span class="tag">une app untracklabs · iPhone &amp; Android</span>
+      <h1>{{ site.title }}<br><span class="grad">{{ site.tagline }}</span></h1>
+      <p class="lead">{{ site.lead }}</p>
+      <div class="cta">
+        <a class="btn primary" href="{{ '/support/' | relative_url }}">Aide et contact</a>
+        <a class="btn" href="{{ '/confidentialite/' | relative_url }}">Confidentialité</a>
+      </div>
+    </div>
+    <div class="hero-icon"><img src="{{ '/assets/icone.png' | relative_url }}" alt="Icône de {{ site.title }}" width="220" height="220"></div>
+  </div>
+  {% endif %}
+
+  <main class="prose{% if page.hero %} home{% endif %}">
+    {{ content }}
+  </main>
+
+  <footer>
+    <a class="by" href="https://untracklabs.org/"><img src="{{ '/assets/untracklabs.svg' | relative_url }}" alt="" width="22" height="22"><span>untrack<b>labs</b><i>_</i></span></a>
+    <span>© 2026 untracklabs · ce site n'utilise ni cookie, ni traceur, ni police externe.</span>
+  </footer>
+
+</div>
+</body>
+</html>
